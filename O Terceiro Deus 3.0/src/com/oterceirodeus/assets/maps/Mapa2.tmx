@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="75" height="9" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="BackMusic" value="Winter hot music.mp3"/>
+  <property name="Gravidade" value="0.7"/>
+ </properties>
+ <tileset firstgid="1" name="Beachbbd" tilewidth="32" tileheight="32">
+  <image source="Beachbbd.png" width="800" height="288"/>
+ </tileset>
+ <layer name="Camada de Tiles 1" width="75" height="9" opacity="0.9">
+  <data encoding="base64" compression="zlib">
+   eJzNzsOuHVAAQNH7altp+2q7qW2mtpnaZmqbqW2mtpmar9andH3DGZ3Bmu7spEQikYrUpCEt6UhPBjKSicxkISvZyE4OcpKL3OQhL/nITwGSIuyHPhWkEIVJpghFKUZxSlCSUpSmDGUpR3kqUJFKVKYKValG9Uj7oU81qEktalOHutSjPg1oSCMa04SmNKM5LWhJK1rThra0o32k/dCnDnSkE53pQle60Z0e9KQXvelDX/rRnwEMZBCDGcJQhjE80n7o0whGMorRjGEs4xjPBCYyiclMYSrTmM4MZjKL2cxhLvOYH2k/9GkBC1nEYpawlGUsZwUrWcVq1rCWdaxnAxvZxGa2sJVtbI+0H/q0g53sYjd72Ms+9nOAgxziMEc4yjGOc4KTnOI0ZzjLOc5H2g99usBFLnGZK1zlGte5wU1ucZs73OUe93nAQx7xmCc85RnPI+2HPr3gJa94zRve8o73fOAjn/hMCl/4yje+84Of/OI3f/jLv0j7oU//AfQPI7g=
+  </data>
+ </layer>
+ <objectgroup name="Camada de Objetos 1" width="75" height="9">
+  <object name="Chão" type="Plataforma" x="0" y="256" width="2400" height="32">
+   <properties>
+    <property name="Terreno" value="Areia"/>
+   </properties>
+  </object>
+  <object name="Ir para floresta " type="CheckPoint" x="2368" y="224" width="32" height="32">
+   <properties>
+    <property name="Função" value="NovaFase"/>
+    <property name="MapName" value="Mapa4.tmx"/>
+    <property name="Posiçãox" value="1"/>
+   </properties>
+  </object>
+  <object name="Tatuí" type="Obstaculo" x="352" y="224" width="32" height="64"/>
+  <object name="Voltar para floresta 1" type="CheckPoint" x="0" y="224" width="32" height="32">
+   <properties>
+    <property name="Função" value="NovaFase"/>
+    <property name="MapName" value="Mapa1.tmx"/>
+    <property name="Posiçãox" value="-1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

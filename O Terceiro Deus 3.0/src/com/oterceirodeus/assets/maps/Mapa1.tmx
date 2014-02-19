@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="150" height="9" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="BackMusic" value="The Other Tales Of Zanpakuto.mp3"/>
+  <property name="Gravidade" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="Forestbbd" tilewidth="32" tileheight="32">
+  <image source="Forestbbd.png" trans="004080" width="796" height="296"/>
+ </tileset>
+ <tileset firstgid="217" name="Estatua1" tilewidth="32" tileheight="32">
+  <image source="Estatua1.png" trans="ffffff" width="67" height="92"/>
+ </tileset>
+ <tileset firstgid="221" name="Bloco - exclamacao" tilewidth="32" tileheight="32">
+  <image source="Bloco - exclamacao.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="222" name="Bloco - interrogacao" tilewidth="32" tileheight="32">
+  <image source="../../../../../Pictures/Bloco - interrogacao.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="223" name="Blocovermelho" tilewidth="32" tileheight="32">
+  <image source="../Sprites/Blocovermelho.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Camada de Tiles 1" width="150" height="9" opacity="0.9">
+  <data encoding="base64" compression="zlib">
+   eJzty2NzF3AAAOB/LXvxwvIyLmPVcpdr2ZfNhcu2Ltu6bNe6vGoZ+zo93+P3e/G8fPIkEom8JJGP/BSgIIUoTBGKUozilKAkpUimNGUoSznKUyGeoE9FKlGZKqRQlWpUpwY1qUVtUqlDXepRnwY0pBGNaULTeII+zWhOC1rSita0oS3taE8aHehIJ9LpTBe60o3u9KAnveIJ+vSmD33pR38GMJBBDCaDIQxlGMMZwUhGMZoxjGUc45kQT9BnIpOYzBSmMo3pzGAms5jNHOYyj/ksYCGLyGQxS1jKsniCPstZwUpWsZo1rGUd69nARjaxmS1sZRvb2cFOdrGbPeyNJ+izj/0c4CCHOMwRjnKM45zgJKc4zRnOco7zXOAil7jMlXiCPle5xnVucJNb3OYOd7nHfR7wkEc85glPecZzXvCSLF7FE/R5zRve8o73fOAj2XziM1/I4Svf+M4PfvKL3/zhL//IjSfo8x/duU9z
+  </data>
+ </layer>
+ <objectgroup name="Camada de Objetos 1" width="150" height="9">
+  <object name="Chão" type="Plataforma" x="0" y="256" width="4800" height="32">
+   <properties>
+    <property name="Terreno" value="Grama"/>
+   </properties>
+  </object>
+  <object name="Checkpoint1" type="CheckPoint" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="Função" value="RestaurarHP"/>
+    <property name="NovaImagem" value="Blocoexclama.png"/>
+   </properties>
+  </object>
+  <object name="Pedra" type="Obstaculo" x="384" y="192" width="64" height="64"/>
+  <object name="Checkpoint2" type="CheckPoint" x="0" y="192" width="32" height="32">
+   <properties>
+    <property name="Função" value="RestaurarHP/MP"/>
+    <property name="NovaImagem" value="Blocoexclama.png"/>
+   </properties>
+  </object>
+  <object name="CheckPoint3" type="CheckPoint" x="192" y="192" width="32" height="32">
+   <properties>
+    <property name="Função" value="RestaurarMP"/>
+    <property name="NovaImagem" value="Blocoexclama.png"/>
+   </properties>
+  </object>
+  <object name="Bau Armadilha" type="CheckPoint" x="288" y="192" width="32" height="32">
+   <properties>
+    <property name="Dano" value="100"/>
+    <property name="Função" value="Dano"/>
+    <property name="NovaImagem" value="Blocoexclama.png"/>
+   </properties>
+  </object>
+  <object name="Voltar para floresta 2" type="CheckPoint" x="512" y="192" width="32" height="32">
+   <properties>
+    <property name="Função" value="NovaFase"/>
+    <property name="MapName" value="Mapa3.tmx"/>
+    <property name="Posiçãox" value="-1"/>
+   </properties>
+  </object>
+  <object name="Plataforma1" type="Plataforma" x="96" y="160" width="224"/>
+  <object name="Plataforma2" type="Plataforma" x="384" y="96" width="128"/>
+  <object name="Plataforma3" type="Plataforma" x="512" y="128" width="128"/>
+  <object name="ToBeach" type="CheckPoint" x="4768" y="192" width="32" height="32">
+   <properties>
+    <property name="Função" value="NovaFase"/>
+    <property name="MapName" value="Mapa2.tmx"/>
+    <property name="Posiçãox" value="1"/>
+   </properties>
+  </object>
+  <object name="Plataforma4" type="Plataforma" x="1280" y="192" width="192"/>
+  <object name="Plataforma5" type="Plataforma" x="2624" y="192" width="256"/>
+  <object name="Plataforma6" type="Plataforma" x="3552" y="192" width="224"/>
+  <object name="Plataforma7" type="Plataforma" x="4224" y="192" width="256"/>
+ </objectgroup>
+</map>

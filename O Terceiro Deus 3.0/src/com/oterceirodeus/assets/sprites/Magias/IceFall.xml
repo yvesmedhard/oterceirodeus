@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:401dd9eaa1665f0045b6e6cf9ad38979$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Magias\\IceFall.png" width="1024" height="2048">
+    <sprite n="side1 (1)" x="2" y="1394" w="463" h="346"/>
+    <sprite n="side1 (2)" x="467" y="1046" w="463" h="346"/>
+    <sprite n="side1 (3)" x="2" y="1046" w="463" h="346"/>
+    <sprite n="side1 (4)" x="467" y="698" w="463" h="346"/>
+    <sprite n="side1 (5)" x="2" y="698" w="463" h="346"/>
+    <sprite n="side1 (6)" x="467" y="350" w="463" h="346"/>
+    <sprite n="side1 (7)" x="2" y="350" w="463" h="346"/>
+    <sprite n="side1 (8)" x="467" y="2" w="463" h="346"/>
+    <sprite n="side1 (9)" x="2" y="2" w="463" h="346"/>
+    <sprite n="side2 (1)" x="2" y="1394" w="463" h="346"/>
+    <sprite n="side2 (2)" x="467" y="1046" w="463" h="346"/>
+    <sprite n="side2 (3)" x="2" y="1046" w="463" h="346"/>
+    <sprite n="side2 (4)" x="467" y="698" w="463" h="346"/>
+    <sprite n="side2 (5)" x="2" y="698" w="463" h="346"/>
+    <sprite n="side2 (6)" x="467" y="350" w="463" h="346"/>
+    <sprite n="side2 (7)" x="2" y="350" w="463" h="346"/>
+    <sprite n="side2 (8)" x="467" y="2" w="463" h="346"/>
+    <sprite n="side2 (9)" x="2" y="2" w="463" h="346"/>
+</TextureAtlas>

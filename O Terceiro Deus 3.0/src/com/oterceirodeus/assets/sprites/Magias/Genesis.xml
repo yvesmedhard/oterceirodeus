@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:fabc2d7bd549d0df95400b0a7290e6f9$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Magias\\Genesis.png" width="1024" height="2048">
+    <sprite n="side1 (1)" x="2" y="1442" w="226" h="238"/>
+    <sprite n="side1 (10)" x="2" y="1202" w="226" h="238"/>
+    <sprite n="side1 (11)" x="686" y="962" w="226" h="238"/>
+    <sprite n="side1 (12)" x="458" y="962" w="226" h="238"/>
+    <sprite n="side1 (13)" x="230" y="962" w="226" h="238"/>
+    <sprite n="side1 (14)" x="2" y="962" w="226" h="238"/>
+    <sprite n="side1 (15)" x="686" y="722" w="226" h="238"/>
+    <sprite n="side1 (16)" x="458" y="722" w="226" h="238"/>
+    <sprite n="side1 (17)" x="230" y="722" w="226" h="238"/>
+    <sprite n="side1 (18)" x="2" y="722" w="226" h="238"/>
+    <sprite n="side1 (19)" x="686" y="482" w="226" h="238"/>
+    <sprite n="side1 (2)" x="458" y="482" w="226" h="238"/>
+    <sprite n="side1 (20)" x="230" y="482" w="226" h="238"/>
+    <sprite n="side1 (21)" x="2" y="482" w="226" h="238"/>
+    <sprite n="side1 (22)" x="686" y="242" w="226" h="238"/>
+    <sprite n="side1 (23)" x="2" y="1442" w="226" h="238"/>
+    <sprite n="side1 (3)" x="458" y="242" w="226" h="238"/>
+    <sprite n="side1 (4)" x="230" y="242" w="226" h="238"/>
+    <sprite n="side1 (5)" x="2" y="242" w="226" h="238"/>
+    <sprite n="side1 (6)" x="686" y="2" w="226" h="238"/>
+    <sprite n="side1 (7)" x="458" y="2" w="226" h="238"/>
+    <sprite n="side1 (8)" x="230" y="2" w="226" h="238"/>
+    <sprite n="side1 (9)" x="2" y="2" w="226" h="238"/>
+    <sprite n="side2 (1)" x="2" y="1442" w="226" h="238"/>
+    <sprite n="side2 (10)" x="2" y="1202" w="226" h="238"/>
+    <sprite n="side2 (11)" x="686" y="962" w="226" h="238"/>
+    <sprite n="side2 (12)" x="458" y="962" w="226" h="238"/>
+    <sprite n="side2 (13)" x="230" y="962" w="226" h="238"/>
+    <sprite n="side2 (14)" x="2" y="962" w="226" h="238"/>
+    <sprite n="side2 (15)" x="686" y="722" w="226" h="238"/>
+    <sprite n="side2 (16)" x="458" y="722" w="226" h="238"/>
+    <sprite n="side2 (17)" x="230" y="722" w="226" h="238"/>
+    <sprite n="side2 (18)" x="2" y="722" w="226" h="238"/>
+    <sprite n="side2 (19)" x="686" y="482" w="226" h="238"/>
+    <sprite n="side2 (2)" x="458" y="482" w="226" h="238"/>
+    <sprite n="side2 (20)" x="230" y="482" w="226" h="238"/>
+    <sprite n="side2 (21)" x="2" y="482" w="226" h="238"/>
+    <sprite n="side2 (22)" x="686" y="242" w="226" h="238"/>
+    <sprite n="side2 (23)" x="2" y="1442" w="226" h="238"/>
+    <sprite n="side2 (3)" x="458" y="242" w="226" h="238"/>
+    <sprite n="side2 (4)" x="230" y="242" w="226" h="238"/>
+    <sprite n="side2 (5)" x="2" y="242" w="226" h="238"/>
+    <sprite n="side2 (6)" x="686" y="2" w="226" h="238"/>
+    <sprite n="side2 (7)" x="458" y="2" w="226" h="238"/>
+    <sprite n="side2 (8)" x="230" y="2" w="226" h="238"/>
+    <sprite n="side2 (9)" x="2" y="2" w="226" h="238"/>
+</TextureAtlas>

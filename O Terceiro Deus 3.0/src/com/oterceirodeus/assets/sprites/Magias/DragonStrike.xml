@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:075c3768627e808c3d08dbf7c0e96adf$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Magias\\DragonStrike.png" width="502" height="533">
+    <sprite n="hit.0_0.png" x="170" y="234" w="2" h="2"/>
+    <sprite n="hit.0_1.png" x="394" y="276" w="92" h="18"/>
+    <sprite n="hit.0_10.png" x="194" y="2" w="200" h="163"/>
+    <sprite n="hit.0_11.png" x="194" y="167" w="198" h="133"/>
+    <sprite n="hit.0_12.png" x="396" y="126" w="90" h="122"/>
+    <sprite n="hit.0_13.png" x="396" y="2" w="90" h="122"/>
+    <sprite n="hit.0_2.png" x="394" y="250" w="106" h="24"/>
+    <sprite n="hit.0_3.png" x="294" y="485" w="112" h="30"/>
+    <sprite n="hit.0_4.png" x="168" y="475" w="124" h="50"/>
+    <sprite n="hit.0_5.png" x="2" y="443" w="164" h="88"/>
+    <sprite n="hit.0_6.png" x="170" y="302" w="168" h="171"/>
+    <sprite n="hit.0_7.png" x="340" y="302" w="158" h="181"/>
+    <sprite n="hit.0_8.png" x="2" y="234" w="166" h="207"/>
+    <sprite n="hit.0_9.png" x="2" y="2" w="190" h="230"/>
+</TextureAtlas>

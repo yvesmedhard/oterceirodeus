@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:6360c6eb6987a04ef7b4e4247b42d3ff$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Movimentos\\Elf-Warrior-Normal.png" width="790" height="730">
+    <sprite n="alert1 (1)" x="494" y="646" w="51" h="76"/>
+    <sprite n="alert1 (2)" x="507" y="568" w="51" h="76"/>
+    <sprite n="alert1 (3)" x="454" y="501" w="51" h="76"/>
+    <sprite n="alert1 (4)" x="507" y="568" w="51" h="76"/>
+    <sprite n="alert1 (5)" x="494" y="646" w="51" h="76"/>
+    <sprite n="alert2 (1)" x="288" y="540" w="51" h="76"/>
+    <sprite n="alert2 (2)" x="727" y="235" w="51" h="76"/>
+    <sprite n="alert2 (3)" x="175" y="571" w="51" h="76"/>
+    <sprite n="alert2 (4)" x="727" y="235" w="51" h="76"/>
+    <sprite n="alert2 (5)" x="288" y="540" w="51" h="76"/>
+    <sprite n="fly1 (1)" x="288" y="456" w="51" h="82"/>
+    <sprite n="fly1 (2)" x="728" y="313" w="51" h="82"/>
+    <sprite n="fly2 (1)" x="175" y="487" w="51" h="82"/>
+    <sprite n="fly2 (2)" x="675" y="313" w="51" h="82"/>
+    <sprite n="heal1 (1)" x="341" y="500" w="58" h="77"/>
+    <sprite n="heal1 (2)" x="341" y="421" w="58" h="77"/>
+    <sprite n="heal1 (3)" x="228" y="535" w="58" h="77"/>
+    <sprite n="heal2 (1)" x="228" y="456" w="58" h="77"/>
+    <sprite n="heal2 (2)" x="115" y="566" w="58" h="77"/>
+    <sprite n="heal2 (3)" x="115" y="487" w="58" h="77"/>
+    <sprite n="jump1 (0)" x="600" y="644" w="51" h="75"/>
+    <sprite n="jump2 (0)" x="547" y="646" w="51" h="75"/>
+    <sprite n="ladder1 (1)" x="332" y="630" w="54" h="79"/>
+    <sprite n="ladder1 (2)" x="276" y="618" w="54" h="79"/>
+    <sprite n="ladder2 (1)" x="220" y="649" w="54" h="79"/>
+    <sprite n="ladder2 (2)" x="164" y="649" w="54" h="79"/>
+    <sprite n="prone1 (0)" x="407" y="579" w="64" h="49"/>
+    <sprite n="prone2 (0)" x="341" y="579" w="64" h="49"/>
+    <sprite n="proneStab1 (1)" x="121" y="436" w="79" h="49"/>
+    <sprite n="proneStab1 (2)" x="215" y="405" w="79" h="49"/>
+    <sprite n="proneStab2 (1)" x="83" y="679" w="79" h="49"/>
+    <sprite n="proneStab2 (2)" x="2" y="679" w="79" h="49"/>
+    <sprite n="rope1 (1)" x="507" y="407" w="51" h="80"/>
+    <sprite n="rope1 (2)" x="454" y="419" w="51" h="80"/>
+    <sprite n="rope2 (1)" x="401" y="421" w="51" h="80"/>
+    <sprite n="rope2 (2)" x="388" y="630" w="51" h="80"/>
+    <sprite n="sit1" x="653" y="644" w="51" h="70"/>
+    <sprite n="sit2" x="401" y="503" w="51" h="70"/>
+    <sprite n="stab1.1 (1)" x="648" y="158" w="93" h="75"/>
+    <sprite n="stab1.1 (2)" x="553" y="158" w="93" h="75"/>
+    <sprite n="stab1.1 (3)" x="121" y="357" w="92" h="77"/>
+    <sprite n="stab1.1 (4)" x="646" y="79" w="92" h="77"/>
+    <sprite n="stab1.2 (1)" x="458" y="158" w="93" h="75"/>
+    <sprite n="stab1.2 (2)" x="695" y="2" w="93" h="75"/>
+    <sprite n="stab1.2 (3)" x="552" y="79" w="92" h="77"/>
+    <sprite n="stab1.2 (4)" x="458" y="79" w="92" h="77"/>
+    <sprite n="stabF.1 (1)" x="2" y="374" w="117" h="75"/>
+    <sprite n="stabF.1 (2)" x="226" y="172" w="117" h="75"/>
+    <sprite n="stabF.1 (3)" x="226" y="95" w="117" h="75"/>
+    <sprite n="stabF.2 (1)" x="576" y="2" w="117" h="75"/>
+    <sprite n="stabF.2 (2)" x="457" y="2" w="117" h="75"/>
+    <sprite n="stabF.2 (3)" x="338" y="2" w="117" h="75"/>
+    <sprite n="stand1 (1)" x="721" y="555" w="51" h="77"/>
+    <sprite n="stand1 (2)" x="668" y="565" w="51" h="77"/>
+    <sprite n="stand1 (3)" x="668" y="486" w="51" h="77"/>
+    <sprite n="stand1 (4)" x="668" y="565" w="51" h="77"/>
+    <sprite n="stand1 (5)" x="721" y="555" w="51" h="77"/>
+    <sprite n="stand2 (1)" x="668" y="407" w="51" h="77"/>
+    <sprite n="stand2 (2)" x="441" y="630" w="51" h="77"/>
+    <sprite n="stand2 (3)" x="507" y="489" w="51" h="77"/>
+    <sprite n="stand2 (4)" x="441" y="630" w="51" h="77"/>
+    <sprite n="stand2 (5)" x="668" y="407" w="51" h="77"/>
+    <sprite n="swing1.1 (1)" x="319" y="343" w="90" h="76"/>
+    <sprite n="swing1.1 (2)" x="635" y="235" w="90" h="76"/>
+    <sprite n="swing1.1 (3)" x="543" y="235" w="90" h="76"/>
+    <sprite n="swing1.2 (1)" x="451" y="235" w="90" h="76"/>
+    <sprite n="swing1.2 (2)" x="227" y="327" w="90" h="76"/>
+    <sprite n="swing1.2 (3)" x="227" y="249" w="90" h="76"/>
+    <sprite n="swing2.1 (1)" x="609" y="313" w="64" h="92"/>
+    <sprite n="swing2.1 (2)" x="543" y="313" w="64" h="92"/>
+    <sprite n="swing2.1 (3)" x="477" y="313" w="64" h="92"/>
+    <sprite n="swing2.2 (1)" x="411" y="325" w="64" h="92"/>
+    <sprite n="swing2.2 (2)" x="385" y="231" w="64" h="92"/>
+    <sprite n="swing2.2 (3)" x="319" y="249" w="64" h="92"/>
+    <sprite n="swing3.1 (1)" x="345" y="155" w="111" h="74"/>
+    <sprite n="swing3.1 (2)" x="345" y="79" w="111" h="74"/>
+    <sprite n="swing3.1 (3)" x="114" y="281" w="111" h="74"/>
+    <sprite n="swing3.2 (1)" x="2" y="603" w="111" h="74"/>
+    <sprite n="swing3.2 (2)" x="2" y="527" w="111" h="74"/>
+    <sprite n="swing3.2 (3)" x="2" y="451" w="111" h="74"/>
+    <sprite n="swingF.1 (1)" x="114" y="188" w="110" h="91"/>
+    <sprite n="swingF.1 (2)" x="2" y="281" w="110" h="91"/>
+    <sprite n="swingF.1 (3)" x="226" y="2" w="110" h="91"/>
+    <sprite n="swingF.1 (4)" x="114" y="95" w="110" h="91"/>
+    <sprite n="swingF.2 (1)" x="2" y="188" w="110" h="91"/>
+    <sprite n="swingF.2 (2)" x="114" y="2" w="110" h="91"/>
+    <sprite n="swingF.2 (3)" x="2" y="95" w="110" h="91"/>
+    <sprite n="swingF.2 (4)" x="2" y="2" w="110" h="91"/>
+    <sprite n="walk1 (1)" x="614" y="565" w="52" h="77"/>
+    <sprite n="walk1 (2)" x="560" y="565" w="52" h="77"/>
+    <sprite n="walk1 (3)" x="721" y="476" w="52" h="77"/>
+    <sprite n="walk1 (4)" x="721" y="397" w="52" h="77"/>
+    <sprite n="walk2 (1)" x="614" y="486" w="52" h="77"/>
+    <sprite n="walk2 (2)" x="560" y="486" w="52" h="77"/>
+    <sprite n="walk2 (3)" x="614" y="407" w="52" h="77"/>
+    <sprite n="walk2 (4)" x="560" y="407" w="52" h="77"/>
+</TextureAtlas>

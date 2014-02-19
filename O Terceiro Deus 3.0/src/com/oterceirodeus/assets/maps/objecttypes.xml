@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="Plataforma" color="#372da4"/>
+ <objecttype name="Obstaculo" color="#aa0000"/>
+ <objecttype name="CheckPoint" color="#55ff00"/>
+ <objecttype name="LocalnoMapa" color="#ffff00"/>
+ <objecttype name="Npc" color="#ff0008"/>
+</objecttypes>

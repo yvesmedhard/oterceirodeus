@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:aac2317aa4c04c0650ceb8b0ad347b66$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Magias\\FireDemon.png" width="698" height="180">
+    <sprite n="side1 (1)" x="537" y="89" w="159" h="87" oX="0" oY="0" oW="183" oH="87"/>
+    <sprite n="side1 (2)" x="2" y="91" w="183" h="87"/>
+    <sprite n="side1 (3)" x="187" y="91" w="179" h="87" oX="0" oY="0" oW="183" oH="87"/>
+    <sprite n="side1 (4)" x="368" y="91" w="167" h="87" oX="0" oY="0" oW="183" oH="87"/>
+    <sprite n="side2 (1)" x="537" y="2" w="159" h="87" oX="24" oY="0" oW="183" oH="87"/>
+    <sprite n="side2 (2)" x="2" y="2" w="183" h="87"/>
+    <sprite n="side2 (3)" x="187" y="2" w="179" h="87" oX="4" oY="0" oW="183" oH="87"/>
+    <sprite n="side2 (4)" x="368" y="2" w="167" h="87" oX="16" oY="0" oW="183" oH="87"/>
+</TextureAtlas>

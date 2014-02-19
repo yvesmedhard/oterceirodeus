@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:48096aa802c28161713dc59a072027c1$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Hitsugaia.png" width="1002" height="881">
+    <sprite n="alert_0(R)1.png" x="913" y="786" w="57" h="78"/>
+    <sprite n="alert_0(R)10.png" x="918" y="170" w="82" h="81"/>
+    <sprite n="alert_0(R)11.png" x="676" y="785" w="57" h="79"/>
+    <sprite n="alert_0(R)12.png" x="853" y="785" w="58" h="79"/>
+    <sprite n="alert_0(R)13.png" x="853" y="704" w="58" h="79"/>
+    <sprite n="alert_0(R)14.png" x="464" y="541" w="113" h="61"/>
+    <sprite n="alert_0(R)15.png" x="464" y="477" w="113" h="62"/>
+    <sprite n="alert_0(R)16.png" x="323" y="199" w="165" h="80"/>
+    <sprite n="alert_0(R)17.png" x="721" y="527" w="57" h="82"/>
+    <sprite n="alert_0(R)18.png" x="514" y="801" w="57" h="78"/>
+    <sprite n="alert_0(R)19.png" x="573" y="802" w="57" h="74"/>
+    <sprite n="alert_0(R)2.png" x="735" y="777" w="57" h="80"/>
+    <sprite n="alert_0(R)20.png" x="278" y="520" w="102" h="95"/>
+    <sprite n="alert_0(R)21.png" x="490" y="199" w="160" h="81"/>
+    <sprite n="alert_0(R)22.png" x="297" y="784" w="97" h="83"/>
+    <sprite n="alert_0(R)23.png" x="323" y="116" w="167" h="81"/>
+    <sprite n="alert_0(R)24.png" x="579" y="562" w="81" h="75"/>
+    <sprite n="alert_0(R)25.png" x="893" y="376" w="103" h="77"/>
+    <sprite n="alert_0(R)26.png" x="327" y="362" w="147" h="79"/>
+    <sprite n="alert_0(R)27.png" x="912" y="621" w="57" h="81"/>
+    <sprite n="alert_0(R)28.png" x="912" y="538" w="57" h="81"/>
+    <sprite n="alert_0(R)29.png" x="853" y="621" w="57" h="81"/>
+    <sprite n="alert_0(R)3.png" x="794" y="769" w="57" h="80"/>
+    <sprite n="alert_0(R)30.png" x="912" y="538" w="57" h="81"/>
+    <sprite n="alert_0(R)31.png" x="912" y="621" w="57" h="81"/>
+    <sprite n="alert_0(R)32.png" x="327" y="443" w="115" h="75"/>
+    <sprite n="alert_0(R)33.png" x="127" y="646" w="123" h="135"/>
+    <sprite n="alert_0(R)34.png" x="2" y="179" w="155" h="175"/>
+    <sprite n="alert_0(R)35.png" x="918" y="86" w="82" h="82"/>
+    <sprite n="alert_0(R)36.png" x="382" y="520" w="80" h="120"/>
+    <sprite n="alert_0(R)37.png" x="2" y="356" w="154" h="166"/>
+    <sprite n="alert_0(R)38.png" x="476" y="359" w="110" h="116"/>
+    <sprite n="alert_0(R)39.png" x="2" y="524" w="162" h="120"/>
+    <sprite n="alert_0(R)4.png" x="735" y="777" w="57" h="80"/>
+    <sprite n="alert_0(R)40.png" x="521" y="2" w="204" h="112"/>
+    <sprite n="alert_0(R)41.png" x="661" y="321" w="71" h="120"/>
+    <sprite n="alert_0(R)42.png" x="837" y="228" w="75" h="126"/>
+    <sprite n="alert_0(R)43.png" x="734" y="222" w="101" h="120"/>
+    <sprite n="alert_0(R)44.png" x="2" y="783" w="189" h="96"/>
+    <sprite n="alert_0(R)45.png" x="853" y="538" w="57" h="81"/>
+    <sprite n="alert_0(R)46.png" x="898" y="455" w="57" h="81"/>
+    <sprite n="alert_0(R)47.png" x="839" y="455" w="57" h="81"/>
+    <sprite n="alert_0(R)48.png" x="794" y="686" w="57" h="81"/>
+    <sprite n="alert_0(R)5.png" x="913" y="786" w="57" h="78"/>
+    <sprite n="alert_0(R)6.png" x="498" y="604" w="57" h="86"/>
+    <sprite n="alert_0(R)7.png" x="662" y="531" w="57" h="86"/>
+    <sprite n="alert_0(R)8.png" x="557" y="720" w="58" h="79"/>
+    <sprite n="alert_0(R)9.png" x="252" y="639" w="80" h="121"/>
+    <sprite n="alert_0.png" x="455" y="801" w="57" h="78"/>
+    <sprite n="alert_1.png" x="913" y="704" w="57" h="80"/>
+    <sprite n="alert_2.png" x="617" y="720" w="57" h="80"/>
+    <sprite n="alert_3.png" x="913" y="704" w="57" h="80"/>
+    <sprite n="alert_4.png" x="455" y="801" w="57" h="78"/>
+    <sprite n="fly_0.png" x="662" y="443" w="57" h="86"/>
+    <sprite n="fly_1.png" x="396" y="784" w="57" h="86"/>
+    <sprite n="heal_0.png" x="557" y="639" w="58" h="79"/>
+    <sprite n="heal_1.png" x="914" y="253" w="80" h="121"/>
+    <sprite n="heal_2.png" x="654" y="116" w="82" h="81"/>
+    <sprite n="jump_0.png" x="617" y="639" w="57" h="79"/>
+    <sprite n="ladder_0.png" x="833" y="356" w="58" h="79"/>
+    <sprite n="ladder_1.png" x="592" y="282" w="58" h="79"/>
+    <sprite n="proneStab_0.png" x="158" y="457" w="113" h="62"/>
+    <sprite n="proneStab_1.png" x="159" y="292" w="165" h="80"/>
+    <sprite n="prone_0.png" x="334" y="721" w="113" h="61"/>
+    <sprite n="rope_0.png" x="721" y="443" w="57" h="82"/>
+    <sprite n="rope_1.png" x="498" y="692" w="57" h="78"/>
+    <sprite n="sit_0.png" x="439" y="642" w="57" h="74"/>
+    <sprite n="stabO1_0.png" x="193" y="783" w="102" h="95"/>
+    <sprite n="stabO1_1.png" x="492" y="116" w="160" h="81"/>
+    <sprite n="stabO2_0.png" x="734" y="344" w="97" h="83"/>
+    <sprite n="stabO2_1.png" x="158" y="374" w="167" h="81"/>
+    <sprite n="stabOF_0.png" x="579" y="485" w="81" h="75"/>
+    <sprite n="stabOF_1.png" x="334" y="642" w="103" h="77"/>
+    <sprite n="stabOF_2.png" x="326" y="281" w="147" h="79"/>
+    <sprite n="stand1_0.png" x="794" y="603" w="57" h="81"/>
+    <sprite n="stand1_1.png" x="780" y="520" w="57" h="81"/>
+    <sprite n="stand1_2.png" x="780" y="437" w="57" h="81"/>
+    <sprite n="stand1_3.png" x="780" y="520" w="57" h="81"/>
+    <sprite n="stand1_4.png" x="794" y="603" w="57" h="81"/>
+    <sprite n="swingO1_0.png" x="475" y="282" w="115" h="75"/>
+    <sprite n="swingO1_1.png" x="2" y="646" w="123" h="135"/>
+    <sprite n="swingO1_2.png" x="2" y="2" w="155" h="175"/>
+    <sprite n="swingO2_0.png" x="918" y="2" w="82" h="82"/>
+    <sprite n="swingO2_1.png" x="652" y="199" w="80" h="120"/>
+    <sprite n="swingO2_2.png" x="159" y="2" w="154" h="166"/>
+    <sprite n="swingO3_0.png" x="166" y="521" w="110" h="116"/>
+    <sprite n="swingO3_1.png" x="159" y="170" w="162" h="120"/>
+    <sprite n="swingO3_2.png" x="315" y="2" w="204" h="112"/>
+    <sprite n="swingOF_0.png" x="588" y="363" w="71" h="120"/>
+    <sprite n="swingOF_1.png" x="841" y="100" w="75" h="126"/>
+    <sprite n="swingOF_2.png" x="738" y="100" w="101" h="120"/>
+    <sprite n="swingOF_3.png" x="727" y="2" w="189" h="96"/>
+    <sprite n="walk1_0.png" x="735" y="694" w="57" h="81"/>
+    <sprite n="walk1_1.png" x="735" y="611" w="57" h="81"/>
+    <sprite n="walk1_2.png" x="676" y="702" w="57" h="81"/>
+    <sprite n="walk1_3.png" x="676" y="619" w="57" h="81"/>
+</TextureAtlas>
