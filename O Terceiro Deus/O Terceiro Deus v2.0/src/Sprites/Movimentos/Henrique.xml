@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:97bb50cce1eab13aa819652305375581$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Movimentos\\Henrique.png" width="368" height="209">
+    <sprite n="jump_0" x="307" y="140" w="59" h="65"/>
+    <sprite n="jump_1" x="246" y="140" w="59" h="65"/>
+    <sprite n="stand1_0" x="185" y="140" w="59" h="67"/>
+    <sprite n="stand1_1" x="124" y="140" w="59" h="67"/>
+    <sprite n="stand1_2" x="63" y="140" w="59" h="67"/>
+    <sprite n="stand1_3" x="124" y="140" w="59" h="67"/>
+    <sprite n="stand1_4" x="185" y="140" w="59" h="67"/>
+    <sprite n="stand2_0" x="2" y="140" w="59" h="67"/>
+    <sprite n="stand2_1" x="249" y="71" w="59" h="67"/>
+    <sprite n="stand2_2" x="188" y="71" w="59" h="67"/>
+    <sprite n="stand2_3" x="249" y="71" w="59" h="67"/>
+    <sprite n="stand2_4" x="2" y="140" w="59" h="67"/>
+    <sprite n="walk1_0" x="126" y="71" w="60" h="67"/>
+    <sprite n="walk1_1" x="64" y="71" w="60" h="67"/>
+    <sprite n="walk1_2" x="2" y="71" w="60" h="67"/>
+    <sprite n="walk1_3" x="68" y="2" w="64" h="67"/>
+    <sprite n="walk2_0" x="258" y="2" w="60" h="67"/>
+    <sprite n="walk2_1" x="196" y="2" w="60" h="67"/>
+    <sprite n="walk2_2" x="134" y="2" w="60" h="67"/>
+    <sprite n="walk2_3" x="2" y="2" w="64" h="67"/>
+</TextureAtlas>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:8a3b37af3d3879df6a6694c148c05a1e$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Movimentos\\Mage.png" width="1132" height="240">
+    <sprite n="jump1 (1)" x="200" y="82" w="51" h="78"/>
+    <sprite n="jump2 (1)" x="200" y="2" w="51" h="78"/>
+    <sprite n="stab1.1 (1)" x="810" y="79" w="112" h="75"/>
+    <sprite n="stab1.1 (2)" x="747" y="157" w="112" h="75"/>
+    <sprite n="stab1.2 (1)" x="785" y="2" w="112" h="75"/>
+    <sprite n="stab1.2 (2)" x="696" y="80" w="112" h="75"/>
+    <sprite n="stand1 (1)" x="541" y="81" w="64" h="77"/>
+    <sprite n="stand1 (2)" x="541" y="2" w="64" h="77"/>
+    <sprite n="stand1 (3)" x="503" y="160" w="64" h="77"/>
+    <sprite n="stand1 (4)" x="541" y="2" w="64" h="77"/>
+    <sprite n="stand1 (5)" x="541" y="81" w="64" h="77"/>
+    <sprite n="stand2 (1)" x="475" y="81" w="64" h="77"/>
+    <sprite n="stand2 (2)" x="475" y="2" w="64" h="77"/>
+    <sprite n="stand2 (3)" x="437" y="160" w="64" h="77"/>
+    <sprite n="stand2 (4)" x="475" y="2" w="64" h="77"/>
+    <sprite n="stand2 (5)" x="475" y="81" w="64" h="77"/>
+    <sprite n="swing1.1 (1)" x="696" y="2" w="87" h="76"/>
+    <sprite n="swing1.1 (2)" x="658" y="158" w="87" h="76"/>
+    <sprite n="swing1.1 (3)" x="607" y="80" w="87" h="76"/>
+    <sprite n="swing1.2 (1)" x="607" y="2" w="87" h="76"/>
+    <sprite n="swing1.2 (2)" x="569" y="160" w="87" h="76"/>
+    <sprite n="swing1.2 (3)" x="200" y="162" w="87" h="76"/>
+    <sprite n="swing2.1 (1)" x="134" y="97" w="64" h="93"/>
+    <sprite n="swing2.1 (2)" x="134" y="2" w="64" h="93"/>
+    <sprite n="swing2.1 (3)" x="68" y="97" w="64" h="93"/>
+    <sprite n="swing2.2 (1)" x="68" y="2" w="64" h="93"/>
+    <sprite n="swing2.2 (2)" x="2" y="97" w="64" h="93"/>
+    <sprite n="swing2.2 (3)" x="2" y="2" w="64" h="93"/>
+    <sprite n="swing3.1 (1)" x="1028" y="78" w="102" h="74"/>
+    <sprite n="swing3.1 (2)" x="965" y="154" w="102" h="74"/>
+    <sprite n="swing3.1 (3)" x="1003" y="2" w="102" h="74"/>
+    <sprite n="swing3.2 (1)" x="924" y="78" w="102" h="74"/>
+    <sprite n="swing3.2 (2)" x="861" y="156" w="102" h="74"/>
+    <sprite n="swing3.2 (3)" x="899" y="2" w="102" h="74"/>
+    <sprite n="walk1 (1)" x="401" y="81" w="72" h="77"/>
+    <sprite n="walk1 (2)" x="401" y="2" w="72" h="77"/>
+    <sprite n="walk1 (3)" x="363" y="160" w="72" h="77"/>
+    <sprite n="walk1 (0)" x="327" y="81" w="72" h="77"/>
+    <sprite n="walk2 (0)" x="327" y="2" w="72" h="77"/>
+    <sprite n="walk2 (1)" x="289" y="160" w="72" h="77"/>
+    <sprite n="walk2 (2)" x="253" y="81" w="72" h="77"/>
+    <sprite n="walk2 (3)" x="253" y="2" w="72" h="77"/>
+</TextureAtlas>

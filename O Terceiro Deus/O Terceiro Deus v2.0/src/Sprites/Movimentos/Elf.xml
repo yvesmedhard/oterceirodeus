@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:9c9acdfc0720bb4b80add6aa3d944312$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Movimentos\\Elf.png" width="416" height="239">
+    <sprite n="jump2" x="2" y="2" w="51" h="75"/>
+    <sprite n="stab1.1 (1)" x="2" y="79" w="93" h="75"/>
+    <sprite n="stab1.1 (2)" x="245" y="2" w="93" h="75"/>
+    <sprite n="stab1.2 (1)" x="150" y="2" w="93" h="75"/>
+    <sprite n="stab1.2 (2)" x="55" y="2" w="93" h="75"/>
+    <sprite n="stand1 (1)" x="309" y="81" w="51" h="77"/>
+    <sprite n="stand1 (2)" x="256" y="79" w="51" h="77"/>
+    <sprite n="stand1 (3)" x="203" y="79" w="51" h="77"/>
+    <sprite n="stand1 (4)" x="256" y="79" w="51" h="77"/>
+    <sprite n="stand1 (5)" x="309" y="81" w="51" h="77"/>
+    <sprite n="stand2 (1)" x="150" y="79" w="51" h="77"/>
+    <sprite n="stand2 (2)" x="97" y="79" w="51" h="77"/>
+    <sprite n="stand2 (3)" x="340" y="2" w="51" h="77"/>
+    <sprite n="stand2 (4)" x="97" y="79" w="51" h="77"/>
+    <sprite n="stand2 (5)" x="150" y="79" w="51" h="77"/>
+    <sprite n="walk1 (1)" x="326" y="160" w="52" h="77"/>
+    <sprite n="walk1 (2)" x="272" y="160" w="52" h="77"/>
+    <sprite n="walk1 (3)" x="218" y="158" w="52" h="77"/>
+    <sprite n="walk1 (4)" x="164" y="158" w="52" h="77"/>
+    <sprite n="walk2 (1)" x="110" y="158" w="52" h="77"/>
+    <sprite n="walk2 (2)" x="56" y="158" w="52" h="77"/>
+    <sprite n="walk2 (3)" x="2" y="156" w="52" h="77"/>
+    <sprite n="walk2 (4)" x="362" y="81" w="52" h="77"/>
+</TextureAtlas>

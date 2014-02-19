@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:8f0503827fdd4af8427a4e97707c59ad$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Magias\\Explosion.png" width="1024" height="1024">
+    <sprite n="side1 (1)" x="506" y="231" w="250" h="227"/>
+    <sprite n="side1 (2)" x="254" y="231" w="250" h="227"/>
+    <sprite n="side1 (3)" x="2" y="689" w="250" h="227"/>
+    <sprite n="side1 (4)" x="2" y="460" w="250" h="227"/>
+    <sprite n="side1 (5)" x="2" y="231" w="250" h="227"/>
+    <sprite n="side1 (6)" x="758" y="2" w="250" h="227"/>
+    <sprite n="side1 (7)" x="506" y="2" w="250" h="227"/>
+    <sprite n="side1 (8)" x="254" y="2" w="250" h="227"/>
+    <sprite n="side1 (9)" x="2" y="2" w="250" h="227"/>
+    <sprite n="side2 (1)" x="506" y="231" w="250" h="227"/>
+    <sprite n="side2 (2)" x="254" y="231" w="250" h="227"/>
+    <sprite n="side2 (3)" x="2" y="689" w="250" h="227"/>
+    <sprite n="side2 (4)" x="2" y="460" w="250" h="227"/>
+    <sprite n="side2 (5)" x="2" y="231" w="250" h="227"/>
+    <sprite n="side2 (6)" x="758" y="2" w="250" h="227"/>
+    <sprite n="side2 (7)" x="506" y="2" w="250" h="227"/>
+    <sprite n="side2 (8)" x="254" y="2" w="250" h="227"/>
+    <sprite n="side2 (9)" x="2" y="2" w="250" h="227"/>
+</TextureAtlas>

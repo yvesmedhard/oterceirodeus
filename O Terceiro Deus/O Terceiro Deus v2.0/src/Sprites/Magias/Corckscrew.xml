@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:a6ceb1295468a79e418dfa64c50f5110$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Magias\\Corckscrew.png" width="1024" height="256">
+    <sprite n="side1 (1)" x="648" y="108" w="321" h="104"/>
+    <sprite n="side1 (2)" x="648" y="2" w="321" h="104"/>
+    <sprite n="side1 (3)" x="325" y="108" w="321" h="104"/>
+    <sprite n="side2 (1)" x="325" y="2" w="321" h="104"/>
+    <sprite n="side2 (2)" x="2" y="108" w="321" h="104"/>
+    <sprite n="side2 (3)" x="2" y="2" w="321" h="104"/>
+</TextureAtlas>

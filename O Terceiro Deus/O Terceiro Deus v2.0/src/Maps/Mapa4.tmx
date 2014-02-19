@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="300" height="18" tilewidth="16" tileheight="16">
+ <properties>
+  <property name="BackMusic" value="Days Of The Past.mp3"/>
+  <property name="Gravidade" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="Forestbbd" tilewidth="16" tileheight="16">
+  <image source="Forestbbd.png" width="796" height="296"/>
+ </tileset>
+ <layer name="Camada de Tiles 1" width="300" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt3FUTFVQYhlG6u7u7u7u7u7s7RUmlUwmlOxQMMMAAg06TMEAJpUsFVBR0+RvO1ZnZM3tdP/Pef7NjxogRIxaxiUNc4hGfBCQkEYlJQlKSkZwUpCQVqUlDWtKRngxkJBOZyUJWspGdHOQkF7nJQ17ykZ8CFKQQhSlCUYpRnBKUDJ3QCZ2IO9GyqRSlKUNZylGeClSkEpWpQlWqUZ0a1KQWtalDXepRnwY0pBGNaUJTmtGcFrSkFa1pQ1va0Z4OdKQTnelCV7rRnR70pFfohE7oRNyJlk296UNf+tGfAQxkEIMZwlCGMZwRjGQUoxnDWMYxnmeYwLM8x0QmMZkpTGUaz/MC05nBTGYxmznMZR7zWcBCFvEiL7GYJaETOqETcSdaNi1lGS/zCstZwUpWsZo1rGUd69nARjaxmS1sZRuv8hrb2cHrvMGbvMVOdvE27/Au77GbPbzPB3zIR+xlHx/zCZ/yGfs5wMHQCZ3QibgTLZsOcZgjHOUYxznBSU7xOV/wJV/xNd9wmjOc5Rzf8h3f8wPnucCP/MRFLnGZK/zML1zlGte5wU1ucZs73OUe9/mV3/idBzwMndAJnYg70bLpEX/wJ3/xmL/5hyc85V9ixPSIRWziEJd4xCcBCUlEYpKQlGQkJwUpSUVq0pCWdKQnAxnJRGaykJVsZCcHOclFbvKQl3yhEzqhE3EnWjblpwAFKURhilCUYhSnBCUpRWnKUJZylKcCFalEZapQlWpUpwY1qUVt6lCXetSnAQ1pRGOa0JRmNKcFLWlFa9rQlna0D53QCZ2IO9GyqQMd6URnutCVbnSnBz3pRW/60Jd+9GcAAxnEYIYwlGEMZwQjGcVoxjCWcYznGSbwLM8xkUlMZgpTmcbzvMB0ZjCTWcwOndAJnYg70bJpDnOZx3wWsJBFvMhLLGYJS1nGy7zCclawklWsZg1rWcd6NrCRTWxmC1vZxqu8xnZ28Dpv8CZvsZNdvM07vMt77GYP7/NB6IRO6ETciZZNH/IRe9nHx3zCp3zGfg5wkEMc5ghHOcZxTnCSU3zOF3zJV3zNN5zmDGc5x7d8x/f8wHku8CM/cZFLXOYKP/MLV7nGdW5wM3RCJ3Qi7kTLplvc5g53ucd9fuU3fucBD3nEH/zJXzzmb/7hCU/5l/8P5mMSi9jEIS7xiE8CEpKIxCQhKclITgpSkorUpCEt6UhPBjKSicyhEzqhE3EnWjZlISvZyE4OcpKL3OQhL/nITwEKUojCFKEoxShOCUpSitKUoSzlKE8FKlKJylShKtWoTg1qUova1KEu9ahPAxrSiMY0CZ3QCZ2IO9GyqSnNaE4LWtKK1rShLe1oTwc60onOdKEr3ehOD3rSi970oS/96M8ABjKIwQxhKMMYzghGMorRjGEs4xjPM0zgWZ5jIpNCJ3RCJ+JOtGyazBSmMo3neYHpzGAms5jNHOYyj/ksYCGLeJGXWMwSlrKMl3mF5axgJatYzRrWso71bGAjm9jMFrayjVd5je3s4HXe4M3QCZ3QibgTLZveYie7eJt3eJf32M0e3ucDPuQj9rKPj/mET/mM/RzgIIc4zBGOcozjnOAkp/icL/iSr/iabzjNGc5yjm/5ju/5gfNc4Ed+Cp3QCZ2IO9Gy6SKXuMwVfuYXrnKN69zgJre4zR3uco/7/Mpv/M4DHvKIP/iTv3jM3/zDE57yL/9/ZBOTWMQmDnGJR3wSkJBEJCYJSUlGclLEDp3QCZ1IO9GyKSWpSE0a0pKO9GQgI5nITBayko3s5CAnuchNHvKSj/wUoCCFKEwRilKM4pSgJKUoTRnKUo7yVKAilahMFapSjerUoGbohE7oRNyJlk21qE0d6lKP+jSgIY1oTBOa0ozmtKAlrWhNG9rSjvZ0oCOd6EwXutKN7vSgJ73oTR/60o/+DGAggxjMEIYyjOGMYCSjQid0QifiTrRs+g+fDLtm
+  </data>
+ </layer>
+ <objectgroup name="Camada de Objetos 1" width="300" height="18">
+  <object name="Chão" type="Plataforma" x="0" y="272" width="4800" height="16"/>
+  <object name="Voltar para praia" type="CheckPoint" x="0" y="208" width="16" height="16">
+   <properties>
+    <property name="Função" value="NovaFase"/>
+    <property name="MapName" value="Mapa2.tmx"/>
+    <property name="Posiçãox" value="-1"/>
+   </properties>
+  </object>
+  <object name="Ir para floresta" type="CheckPoint" x="4784" y="208" width="16" height="16">
+   <properties>
+    <property name="Função" value="NovaFase"/>
+    <property name="MapName" value="Mapa1.tmx"/>
+    <property name="Posiçãox" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

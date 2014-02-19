@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:7005e5ce8522e90b6370235ac462dc6d$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Movimentos\\Buccaneer.png" width="512" height="512">
+    <sprite n="jump1 (0)" x="273" y="290" w="60" h="70"/>
+    <sprite n="jump2 (0)" x="264" y="218" w="60" h="70"/>
+    <sprite n="stab1.1 (0)" x="414" y="216" w="76" h="69"/>
+    <sprite n="stab1.1 (1)" x="326" y="218" w="76" h="69"/>
+    <sprite n="stab1.2 (0)" x="414" y="145" w="76" h="69"/>
+    <sprite n="stab1.2 (1)" x="414" y="74" w="76" h="69"/>
+    <sprite n="stab2.1 (0)" x="2" y="296" w="83" h="72"/>
+    <sprite n="stab2.1 (1)" x="2" y="222" w="83" h="72"/>
+    <sprite n="stab2.2 (0)" x="2" y="148" w="83" h="72"/>
+    <sprite n="stab2.2 (1)" x="2" y="74" w="83" h="72"/>
+    <sprite n="stabF.1 (0)" x="300" y="146" w="112" h="70"/>
+    <sprite n="stabOF.1 (1)" x="300" y="74" w="112" h="70"/>
+    <sprite n="stabOF.1 (2)" x="344" y="2" w="112" h="70"/>
+    <sprite n="stabOF.2 (0)" x="230" y="2" w="112" h="70"/>
+    <sprite n="stabOF.2 (1)" x="116" y="2" w="112" h="70"/>
+    <sprite n="stabOF.2 (2)" x="2" y="2" w="112" h="70"/>
+    <sprite n="stand1 (0)" x="143" y="222" w="54" h="72"/>
+    <sprite n="stand1 (1)" x="143" y="148" w="54" h="72"/>
+    <sprite n="stand1 (2)" x="143" y="74" w="54" h="72"/>
+    <sprite n="stand1 (3)" x="114" y="370" w="54" h="72"/>
+    <sprite n="stand1 (4)" x="87" y="296" w="54" h="72"/>
+    <sprite n="stand2 (0)" x="87" y="222" w="54" h="72"/>
+    <sprite n="stand2 (1)" x="87" y="148" w="54" h="72"/>
+    <sprite n="stand2 (2)" x="87" y="74" w="54" h="72"/>
+    <sprite n="stand2 (3)" x="58" y="370" w="54" h="72"/>
+    <sprite n="stand2 (4)" x="2" y="370" w="54" h="72"/>
+    <sprite n="walk1 (0)" x="235" y="439" w="63" h="71"/>
+    <sprite n="walk1 (1)" x="235" y="366" w="63" h="71"/>
+    <sprite n="walk1 (2)" x="208" y="293" w="63" h="71"/>
+    <sprite n="walk1 (3)" x="199" y="220" w="63" h="71"/>
+    <sprite n="walk2 (0)" x="199" y="147" w="63" h="71"/>
+    <sprite n="walk2 (1)" x="199" y="74" w="63" h="71"/>
+    <sprite n="walk2 (2)" x="170" y="369" w="63" h="71"/>
+    <sprite n="walk2 (3)" x="143" y="296" w="63" h="71"/>
+</TextureAtlas>
