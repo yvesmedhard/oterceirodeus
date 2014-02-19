@@ -12,7 +12,6 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import javax.swing.ImageIcon;
-import com.oterceirodeus.codigo_fonte.gameplay.*;
 
 /**
  *
@@ -43,7 +42,7 @@ public class Ficha {
         this.mptotal = 1000;
         setPosicao(100, 100);
         setVelocidade(8, 20);
-        setImage("Sprites\\Hitsugaia.png");
+        setImage("..\\..\\assets\\sprites\\Outros\\Hitsugaia.png");
     }
 
     public Ficha(String nome, Raça raca, Classe classe) {

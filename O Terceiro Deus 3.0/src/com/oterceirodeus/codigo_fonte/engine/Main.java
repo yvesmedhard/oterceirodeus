@@ -13,13 +13,13 @@ import com.oterceirodeus.codigo_fonte.gameplay.*;
 public class Main {
 
     public static void main(String[] args) {
-        GameCore mf3d = new GameCore();
+        GameCore m43d = new GameCore();
         MenuInicial mi = new MenuInicial();
         int i = mi.gameloop();
         mi.dispose();
         if(i == 0 ){
-            mf3d.inciarFicha();
-            mf3d.gameLoop();
+            m43d.inciarFicha();
+            m43d.gameLoop();
         }        
     }
 }

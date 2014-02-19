@@ -75,7 +75,7 @@ public class Cenario {
         TMXMapReader TMXR = new TMXMapReader();
         Map mapa = null;
         try {
-            mapa = TMXR.readMap("src\\Maps\\" + filename);
+            mapa = TMXR.readMap("src\\com\\oterceirodeus\\assets\\maps\\" + filename);
         } catch (Exception ex) {
             Logger.getLogger(Cenario.class.getName()).log(Level.SEVERE, null, ex);
         }

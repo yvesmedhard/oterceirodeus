@@ -137,17 +137,17 @@ public class Item implements Comparable<Item> {
         this.imgItemInventario = imgItemInventario;
     }
 
-    public static void main(String[] args){
-        Item item = new Item(0, "Máscara de Fogo", "Máscara que concede ao guerreiro a fúria dos Titãns", new ImageIcon().getImage(), 10, 2);
-
-        item.getTipoDano().setValor("Agua", 7);
-        item.getTipoDano().setValor("Terra", 2);
-        item.getTipoDano().setValor("Fogo", 2);
-        item.getTipoDano().setValor("Ar", 5);
-        item.getTipoDano().setValor("Luz", 3);
-        item.getTipoDano().setValor("Trevas", 1);
-        item.getTipoDano().setValor("Normal", 0);
-    }
+//    public static void main(String[] args){
+//        Item item = new Item(0, "Máscara de Fogo", "Máscara que concede ao guerreiro a fúria dos Titãns", new ImageIcon().getImage(), 10, 2);
+//
+//        item.getTipoDano().setValor("Agua", 7);
+//        item.getTipoDano().setValor("Terra", 2);
+//        item.getTipoDano().setValor("Fogo", 2);
+//        item.getTipoDano().setValor("Ar", 5);
+//        item.getTipoDano().setValor("Luz", 3);
+//        item.getTipoDano().setValor("Trevas", 1);
+//        item.getTipoDano().setValor("Normal", 0);
+//    }
 
     @Override
     public int compareTo(Item o) {

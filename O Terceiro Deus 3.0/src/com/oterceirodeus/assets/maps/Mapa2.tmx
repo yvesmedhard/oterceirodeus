@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="75" height="9" tilewidth="32" tileheight="32">
  <properties>
   <property name="BackMusic" value="Winter hot music.mp3"/>
@@ -30,7 +29,7 @@
   <object name="Voltar para floresta 1" type="CheckPoint" x="0" y="224" width="32" height="32">
    <properties>
     <property name="Função" value="NovaFase"/>
-    <property name="MapName" value="Mapa1.tmx"/>
+    <property name="MapName" value="ForestMap.tmx"/>
     <property name="Posiçãox" value="-1"/>
    </properties>
   </object>

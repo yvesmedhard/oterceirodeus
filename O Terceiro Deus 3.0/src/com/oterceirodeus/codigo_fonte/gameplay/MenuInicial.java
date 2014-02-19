@@ -37,10 +37,10 @@ public class MenuInicial extends JFrame implements KeyListener {
         this.setVisible(true);
         this.setOpacity(0);
         this.addKeyListener(this);
-        mp3p = new MP3Player(new File("src\\Audio\\dearlybeloved.mp3"));
+        mp3p = new MP3Player(new File("src\\com\\oterceirodeus\\assets\\audio\\dearlybeloved.mp3"));
         this.g2d = (Graphics2D) getGraphics();
-        this.image = new ImageIcon(this.getClass().getResource("Sprites\\Outros\\MenuInicial.png")).getImage();
-        Font f = new Font("lala", 65, 30);
+        this.image = new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Outros\\MenuInicial.png")).getImage();
+        Font f = new Font("Arial Bold", 65, 30);
         this.g2d.setFont(f);
     }
     public int gameloop() {

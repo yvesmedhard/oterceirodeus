@@ -42,7 +42,7 @@ public class GameCore {
     public GameCore() throws HeadlessException {
         //Inicializa Valores padrão
 
-        loadscreen = new ImageIcon(this.getClass().getResource("Sprites\\Outros\\Load.png")).getImage();
+        loadscreen = new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Outros\\Load.png")).getImage();
         mapadomundopadrao = "MapaDoReinado.tmx";
 
         //inicializa cenario metodos de entrada personaem, tela e Mapa do Mundo
@@ -55,6 +55,7 @@ public class GameCore {
 
 
         p = new Personagem(new Ficha(), c, "Movimentos\\Humano.xml", skills);
+        
         p.getSkills().add(new Magia("FireDemon", new Magia("Explosion", null, 0, 3, 0, 0), false, 1, 0, 90, 10, 10, 2, 15));
         p.getSkills().add(new Magia("IceFall", null, 0, 6, 0, 5));
         p.getSkills().add(new Magia("Eruption", null, 0, 2, 70, 2));
@@ -132,7 +133,7 @@ public class GameCore {
     }
 
     public void updateGame() {
-        if (mapadomundo.isAtivado() || c.isSair() || c.isLoading()|| p.getInventario().isInInventario()) {
+        if (mapadomundo.isAtivado() || c.isSair() || c.isLoading()/*|| p.getInventario().isInInventario()*/) {
         } else {
             //  Faz o update do personagem;
             p.update(1);
@@ -183,12 +184,14 @@ public class GameCore {
             mapadomundo.pintarMapa(g2d);
             screen.getBstrategy().show();
 
-        } else if (p.getInventario().isInInventario()) {
-            Graphics2D g2d = (Graphics2D) screen.getBstrategy().getDrawGraphics();
-            g2d.setClip(0, 0, 800, 600);
-            p.getInventario().pintar(g2d);
-            screen.getBstrategy().show();
-        } else {
+        }
+//        else if (p.getInventario().isInInventario()) {
+//            Graphics2D g2d = (Graphics2D) screen.getBstrategy().getDrawGraphics();
+//            g2d.setClip(0, 0, 800, 600);
+//            p.getInventario().pintar(g2d);
+//            screen.getBstrategy().show();
+//        } 
+        else {
             //Cria o graphics2d baseado no back Buffer
             Graphics2D g2d1 = (Graphics2D) screen.getBstrategy().getDrawGraphics();
             //Cria a bufferedimage baseada no mapa
@@ -246,11 +249,11 @@ public class GameCore {
             case ("Humano"):
                 switch (p.ficha.getClasse().getNome()) {
                     case ("Guerreiro"):
-                        p.movimentos.carregarMovimentos("Movimentos\\Humano.xml");
+                        p.movimentos.carregarMovimentos("..\\..\\assets\\sprites\\Movimentos\\Humano.xml");
                         System.out.println("Guerreiro humano");
                         break;
                     case ("Mago"):
-                        p.movimentos.carregarMovimentos("Movimentos\\Mage.xml");
+                        p.movimentos.carregarMovimentos("..\\..\\assets\\sprites\\Movimentos\\Mage.xml");
                         System.out.println("mago humano");
                         break;
                 }
@@ -258,11 +261,11 @@ public class GameCore {
             case ("Elfo"):
                 switch (p.ficha.getClasse().getNome()) {
                     case ("Guerreiro"):
-                        p.movimentos.carregarMovimentos("Movimentos\\Elf-Warrior-Normal.xml");
+                        p.movimentos.carregarMovimentos("..\\..\\assets\\sprites\\Movimentos\\Elf-Warrior-Normal.xml");
                         System.out.println("Guerreiro elfo");
                         break;
                     case ("Mago"):
-                        p.movimentos.carregarMovimentos("Movimentos\\Mage.xml");
+                        p.movimentos.carregarMovimentos("..\\..\\assets\\sprites\\Movimentos\\Mage.xml");
                         System.out.println("mago humano");
                         break;
                 }

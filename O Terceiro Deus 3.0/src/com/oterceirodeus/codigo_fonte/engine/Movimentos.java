@@ -4,7 +4,6 @@ package com.oterceirodeus.codigo_fonte.engine;
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-import com.oterceirodeus.codigo_fonte.gameplay.*;
 import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.Point;
@@ -63,7 +62,7 @@ public class Movimentos {
         Graphics2D g2d = bimage.createGraphics();
         g2d.setClip(0, 0, bimage.getWidth(), bimage.getHeight());
 
-        Image spritesheet = new ImageIcon(this.getClass().getResource("Sprites\\" + d.getRootElement().getAttributeValue("imagePath"))).getImage();
+        Image spritesheet = new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\" + d.getRootElement().getAttributeValue("imagePath"))).getImage();
         g2d.drawImage(spritesheet, 0, 0, null);
         List<Element> i = d.getRootElement().getChildren();
 
@@ -375,7 +374,7 @@ public class Movimentos {
 
     public Document lerxml(String file) {
 
-        File f = new File("src\\Sprites\\" + file);
+        File f = new File("src\\com\\oterceirodeus\\assets\\sprites\\" + file);
         SAXBuilder sb = new SAXBuilder();
         Document d = null;
         try {

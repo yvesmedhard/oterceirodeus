@@ -6,9 +6,6 @@
 
 package com.oterceirodeus.codigo_fonte.gameplay;
 
-import com.oterceirodeus.codigo_fonte.gameplay.Classe;
-import com.oterceirodeus.codigo_fonte.gameplay.TiposDano;
-import com.oterceirodeus.codigo_fonte.gameplay.TiposEfeito;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Map;

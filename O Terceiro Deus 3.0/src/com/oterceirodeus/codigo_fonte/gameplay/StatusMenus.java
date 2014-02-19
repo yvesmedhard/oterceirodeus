@@ -29,12 +29,12 @@ public class StatusMenus {
     int[] y1 = new int[4];
 
     public StatusMenus() {
-        img2 = new ImageIcon(this.getClass().getResource("Sprites\\BarraVida5.png")).getImage();
+        img2 = new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Outros\\BarraVida5.png")).getImage();
     }
 
     public StatusMenus(int hp, int mp, int hp2, int mp2) {
         try {
-            img2 = new ImageIcon(this.getClass().getResource("Sprites\\BarraVida5.png")).getImage();
+            img2 = new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Outros\\BarraVida5.png")).getImage();
             setHp(hp);
             setMp(mp);
             setHptotal(hp2);
@@ -49,7 +49,7 @@ public class StatusMenus {
     public StatusMenus(Personagem p) {
         this.p = p;
         try {
-            img2 = new ImageIcon(this.getClass().getResource("Sprites\\Outros\\BarraVida5.png")).getImage();
+            img2 = new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Outros\\BarraVida5.png")).getImage();
             setHp(p.getFicha().getHp());
             setMp(p.getFicha().getMp());
             setHptotal(p.getFicha().getHptotal());

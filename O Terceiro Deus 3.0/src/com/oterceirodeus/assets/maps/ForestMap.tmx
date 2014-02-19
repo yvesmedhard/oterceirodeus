@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="200" height="88" tilewidth="10" tileheight="10">
  <tileset firstgid="1" name="Forest" tilewidth="10" tileheight="10">
-  <image source="Forest1.png" width="2000" height="880"/>
+  <image source="Forest1.png" width="2000" height="1350"/>
  </tileset>
  <layer name="Camada de Tiles 1" width="200" height="88">
   <data encoding="base64" compression="zlib">
@@ -21,7 +21,13 @@
   <object name="Plataforma7" type="Plataforma" x="1116" y="270" width="290" height="30"/>
   <object name="Plataforma10" type="Plataforma" x="1598" y="299" width="290" height="30"/>
   <object name="Chão" type="Plataforma" x="0" y="844" width="2000" height="40"/>
-  <object name="PróximaFase" type="CheckPoint" x="1860" y="750" width="70" height="90"/>
+  <object name="PróximaFase" type="CheckPoint" x="1860" y="750" width="70" height="90">
+   <properties>
+    <property name="Funcaoção" value="NovaFase"/>
+    <property name="MapName" value="MontainMap1.tmx"/>
+    <property name="Posiçãox" value="1"/>
+   </properties>
+  </object>
   <object name="Inicio" type="CheckPoint" x="40" y="730" width="30" height="30"/>
   <object name="NPC1" type="Npc" x="450" y="350" width="50" height="60"/>
   <object name="NPC2" type="Npc" x="770" y="270" width="50" height="60"/>

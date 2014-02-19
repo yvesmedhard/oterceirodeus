@@ -2,11 +2,7 @@ package com.oterceirodeus.codigo_fonte.gameplay;
 
 
 import java.awt.Image;
-import java.awt.geom.Point2D;
 import javax.swing.ImageIcon;
-import tiled.core.MapLayer;
-import tiled.core.Tile;
-import tiled.core.TileLayer;
 import com.oterceirodeus.codigo_fonte.engine.*;
 /*
  * To change this template, choose Tools | Templates
@@ -60,7 +56,7 @@ public class AcoesdeCheckPoint {
 
             case ("Dano"):
                 p.tomouDano(Integer.parseInt(p.getC().getCheckpointArray().get(obj).getProperties().getProperty("Dano")));
-                Image image = new ImageIcon(this.getClass().getResource("Sprites\\Outros\\" + p.getC().getCheckpointArray().get(obj).getProperties().getProperty("NovaImagem"))).getImage();
+                Image image = new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Outros\\" + p.getC().getCheckpointArray().get(obj).getProperties().getProperty("NovaImagem"))).getImage();
                 break;
         }
     }

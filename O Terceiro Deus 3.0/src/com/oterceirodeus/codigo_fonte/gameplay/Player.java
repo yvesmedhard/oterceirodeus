@@ -28,7 +28,7 @@ public final class Player {
 
     public MP3Player setBackMusic(String s) {
         this.backmusic.getPlayList().removeAll(backmusic.getPlayList());
-        this.backmusic.addToPlayList(new File("src\\Audio\\" + s));
+        this.backmusic.addToPlayList(new File("src\\com\\oterceirodeus\\assets\\audio\\" + s));
         //this.backmusic.skipForward();
         return this.backmusic;
     }
@@ -47,7 +47,7 @@ public final class Player {
 
     public MP3Player setOtherMusic(String s) {
         this.other.getPlayList().retainAll(other.getPlayList());
-        this.other.addToPlayList(new File("src\\Audio\\" + s));
+        this.other.addToPlayList(new File("..\\..\\assets\\audio\\" + s));
         //this.other.skipForward();
         
         return this.other;

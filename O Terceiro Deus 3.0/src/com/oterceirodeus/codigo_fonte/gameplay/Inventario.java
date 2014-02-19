@@ -4,23 +4,14 @@ package com.oterceirodeus.codigo_fonte.gameplay;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
-import java.awt.event.MouseListener;
-
 import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.Point;
 import java.awt.Polygon;
 import java.awt.Rectangle;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseMotionListener;
-import java.awt.image.BufferedImage;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.ImageIcon;
-import javax.swing.JFrame;
 
 /**
  *
@@ -66,15 +57,15 @@ public class Inventario {
 
         setCapacidadeCarga(F);
 
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Abas\\Aba2_Inventario_Status.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Abas\\Aba2_Inventario_Equipamento.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Abas\\Aba2_Inventario_Itens.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Abas\\Aba2_Inventario_Habilidades.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Abas\\Aba2_Inventario_Equipamento2.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Abas\\Aba2_Inventario_Itens2.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Abas\\Aba2_Inventario_Habilidades2.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Abas\\SetaCima.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Abas\\SetaBaixo.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("C:\\Users\\Yves-Medhard\\Documents\\NetBeansProjects\\oterceirodeus\\O Terceiro Deus 3.0\\src\\com\\oterceirodeus\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Status.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\oterceirodeus\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Equipamento.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\com\\oterceirodeus\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Itens.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\com\\oterceirodeus\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Habilidades.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\com\\oterceirodeus\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Equipamento2.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("src\\com\\oterceirodeus\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Itens2.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("src\\com\\oterceirodeus\\assets\\sSprites\\Inventario\\Abas\\Aba2_Inventario_Habilidades2.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("src\\com\\oterceirodeus\\assets\\sprites\\Inventario\\Abas\\SetaCima.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("src\\com\\oterceirodeus\\assets\\sSprites\\Inventario\\Abas\\SetaBaixo.png")).getImage());
         setarImagem(1);
 
         this.abasRetangulos = addRetangulos(1, 4, 25, 25, 187, 187, 187, 40);
@@ -130,7 +121,7 @@ public class Inventario {
         somaTotalPeso(arrayItensVestes, arrayItensReserva);
         somaTotalSlot(arrayItensReserva);
 
-        bg = new ImageIcon(this.getClass().getResource("Sprites\\fundoBranco.png")).getImage();
+        bg = new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\fundoBranco.png")).getImage();
 
         //  backBuffer = new BufferedImage(800, 600, BufferedImage.TYPE_INT_RGB);
     }

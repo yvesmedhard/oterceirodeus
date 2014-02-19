@@ -66,7 +66,7 @@ public class Magia {
         this.tipo = 1;
         this.velocidade = 15;
         this.repetições = 10;
-        this.s = carregarMagia("Magias\\FireDemon.xml");
+        this.s = carregarMagia("..\\..\\assets\\sprites\\Magias\\FireDemon.xml");
         //// System.out.println("Fire Demon criado");
 //        ArrayList<Image> Img = new ArrayList();
 //        ImageIcon Icon = new ImageIcon();
@@ -150,7 +150,7 @@ public class Magia {
         Graphics2D g2d = bimage.createGraphics();
         g2d.setClip(0, 0, bimage.getWidth(), bimage.getHeight());
 
-        Image spritesheet = new ImageIcon(this.getClass().getResource("Sprites\\" + d.getRootElement().getAttributeValue("imagePath"))).getImage();
+        Image spritesheet = new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\" + d.getRootElement().getAttributeValue("imagePath"))).getImage();
         g2d.drawImage(spritesheet, 0, 0, null);
 
         //System.out.println("bi criado com sucesso");
@@ -405,7 +405,7 @@ public class Magia {
 
     public Document lerxml(String file) {
 
-        File f = new File("src\\Sprites\\" + file);
+        File f = new File("src\\com\\oterceirodeus\\assets\\sprites\\" + file);
         SAXBuilder sb = new SAXBuilder();
         Document d = null;
         try {

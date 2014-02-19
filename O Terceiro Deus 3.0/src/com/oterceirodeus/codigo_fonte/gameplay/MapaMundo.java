@@ -2,7 +2,6 @@ package com.oterceirodeus.codigo_fonte.gameplay;
 
 
 import java.awt.Graphics2D;
-import java.awt.Polygon;
 import java.awt.Rectangle;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
