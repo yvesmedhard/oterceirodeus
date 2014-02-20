@@ -50,7 +50,6 @@ public class Cenario {
 
     public void novoCenario(String mapaname) {
         limparArrays();
-
         Map mapa = lermapa(mapaname);
         this.mapobjectArray = lerMapObject(mapa.getLayer(1));
         
