@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="200" height="135" tilewidth="10" tileheight="10">
  <properties>
   <property name="BackMusic" value="Japanese.mp3"/>
@@ -132,6 +131,12 @@
     <property name="Classe" value="Guerreiro"/>
     <property name="Raça" value="Elfo"/>
     <property name="Xml" value="Movimentos\\Ninja.xml"/>
+   </properties>
+  </object>
+  <object name="Heal" type="Checkpoint" x="1001" y="755" width="60" height="80">
+   <properties>
+    <property name="Função" value="NovaFase"/>
+    <property name="MapName" value="Mapa3.tmx"/>
    </properties>
   </object>
  </objectgroup>
