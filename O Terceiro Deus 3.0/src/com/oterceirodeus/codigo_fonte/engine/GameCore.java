@@ -185,12 +185,12 @@ public class GameCore {
             screen.getBstrategy().show();
 
         }
-//        else if (p.getInventario().isInInventario()) {
-//            Graphics2D g2d = (Graphics2D) screen.getBstrategy().getDrawGraphics();
-//            g2d.setClip(0, 0, 800, 600);
-//            p.getInventario().pintar(g2d);
-//            screen.getBstrategy().show();
-//        } 
+        else if (p.getInventario().isInInventario()) {
+            Graphics2D g2d = (Graphics2D) screen.getBstrategy().getDrawGraphics();
+            g2d.setClip(0, 0, 800, 600);
+            p.getInventario().pintar(g2d);
+            screen.getBstrategy().show();
+        } 
         else {
             //Cria o graphics2d baseado no back Buffer
             Graphics2D g2d1 = (Graphics2D) screen.getBstrategy().getDrawGraphics();

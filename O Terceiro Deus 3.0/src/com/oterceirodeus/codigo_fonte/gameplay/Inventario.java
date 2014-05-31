@@ -57,15 +57,15 @@ public class Inventario {
 
         setCapacidadeCarga(F);
 
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("C:\\Users\\Yves-Medhard\\Documents\\NetBeansProjects\\oterceirodeus\\O Terceiro Deus 3.0\\src\\com\\oterceirodeus\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Status.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\oterceirodeus\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Equipamento.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\com\\oterceirodeus\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Itens.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\com\\oterceirodeus\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Habilidades.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\com\\oterceirodeus\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Equipamento2.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("src\\com\\oterceirodeus\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Itens2.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("src\\com\\oterceirodeus\\assets\\sSprites\\Inventario\\Abas\\Aba2_Inventario_Habilidades2.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("src\\com\\oterceirodeus\\assets\\sprites\\Inventario\\Abas\\SetaCima.png")).getImage());
-        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("src\\com\\oterceirodeus\\assets\\sSprites\\Inventario\\Abas\\SetaBaixo.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Status.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Equipamento.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Itens.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Habilidades.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Equipamento2.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Itens2.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Abas\\Aba2_Inventario_Habilidades2.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Abas\\SetaCima.png")).getImage());
+        this.imagemAbas.add(new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Abas\\SetaBaixo.png")).getImage());
         setarImagem(1);
 
         this.abasRetangulos = addRetangulos(1, 4, 25, 25, 187, 187, 187, 40);
@@ -121,7 +121,7 @@ public class Inventario {
         somaTotalPeso(arrayItensVestes, arrayItensReserva);
         somaTotalSlot(arrayItensReserva);
 
-        bg = new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\fundoBranco.png")).getImage();
+        bg = new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Outros\\fundoBranco.png")).getImage();
 
         //  backBuffer = new BufferedImage(800, 600, BufferedImage.TYPE_INT_RGB);
     }
@@ -133,48 +133,48 @@ public class Inventario {
 
     public ArrayList<Item> criarItens1() {
         ArrayList<Item> itens = new ArrayList<>();
-        Item a = new Item(0, "Elmo do Infinito1", "Aumentará a concentra-/ção do guerreiro", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Elmo\\elmo1.png")).getImage(), 1, 1);
+        Item a = new Item(0, "Elmo do Infinito1", "Aumentará a concentra-/ção do guerreiro", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Elmo\\elmo1.png")).getImage(), 1, 1);
         a.getTipoDano().setTipoDano(4, 5, 7, 1, 0, 8, 9);
         a.getResistenciaDano().setTipoDano(1, 2, 3, 4, 5, 6, 7);
         itens.add(a);
-        itens.add(new Item(0, "Elmo do Além", "Aumentará seu poder", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Elmo\\elmo2.png")).getImage(), 1, 1));
+        itens.add(new Item(0, "Elmo do Além", "Aumentará seu poder", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Elmo\\elmo2.png")).getImage(), 1, 1));
 
-        itens.add(new Item(1, "Brincos do Infinito", "Aquele que a possuir/terá uma orelha de fogo", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Brincos\\brincos1.png")).getImage(), 2, 2));
-        itens.add(new Item(1, "Brincos da Guerra", "Dá poderes do Deus/da Guerra", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Brincos\\brincos2.png")).getImage(), 2, 5));
-        itens.add(new Item(1, "Brincos Fantasmas", "Aquele que a possuir/terá uma ghost orelha", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Brincos\\brincos3.png")).getImage(), 2, 2));
-        itens.add(new Item(1, "Brincos Fênix", "Aquele que a possuir/terá o poder da ressureição", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Brincos\\brincos5.png")).getImage(), 2, 2));
+        itens.add(new Item(1, "Brincos do Infinito", "Aquele que a possuir/terá uma orelha de fogo", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Brincos\\brincos1.png")).getImage(), 2, 2));
+        itens.add(new Item(1, "Brincos da Guerra", "Dá poderes do Deus/da Guerra", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Brincos\\brincos2.png")).getImage(), 2, 5));
+        itens.add(new Item(1, "Brincos Fantasmas", "Aquele que a possuir/terá uma ghost orelha", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Brincos\\brincos3.png")).getImage(), 2, 2));
+        itens.add(new Item(1, "Brincos Fênix", "Aquele que a possuir/terá o poder da ressureição", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Brincos\\brincos5.png")).getImage(), 2, 2));
 
-        itens.add(new Item(2, "Luvas de Motoqueiro", "Essas Luvas aumentam /a sua proteção contra o frio", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Luvas\\luvas1.png")).getImage(), 2, 2));
-        itens.add(new Item(2, "Luvas de Metal", "Luvas que protegem/contra possíveis/disparos de flechas", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Luvas\\luvas2.png")).getImage(), 2, 2));
-        itens.add(new Item(2, "Luvas de Pedra", "Luvas que aumenta/força de soco", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Luvas\\luvas4.png")).getImage(), 2, 2));
+        itens.add(new Item(2, "Luvas de Motoqueiro", "Essas Luvas aumentam /a sua proteção contra o frio", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Luvas\\luvas1.png")).getImage(), 2, 2));
+        itens.add(new Item(2, "Luvas de Metal", "Luvas que protegem/contra possíveis/disparos de flechas", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Luvas\\luvas2.png")).getImage(), 2, 2));
+        itens.add(new Item(2, "Luvas de Pedra", "Luvas que aumenta/força de soco", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Luvas\\luvas4.png")).getImage(), 2, 2));
 
-        itens.add(new Item(3, "Capa da Invisibilidade", "Aquele que a possuir/ ficará invisível", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Capa\\capa1.png")).getImage(), 2, 2));
-        itens.add(new Item(3, "Capa de Voar", "Use ela, então começará/a levitar", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Capa\\capa2.png")).getImage(), 2, 2));
-        itens.add(new Item(3, "Capa de Borracha", "Isolante natural", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Capa\\capa4.png")).getImage(), 2, 2));
+        itens.add(new Item(3, "Capa da Invisibilidade", "Aquele que a possuir/ ficará invisível", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Capa\\capa1.png")).getImage(), 2, 2));
+        itens.add(new Item(3, "Capa de Voar", "Use ela, então começará/a levitar", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Capa\\capa2.png")).getImage(), 2, 2));
+        itens.add(new Item(3, "Capa de Borracha", "Isolante natural", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Capa\\capa4.png")).getImage(), 2, 2));
 
-        itens.add(new Item(4, "Sapatos do Infinito", "Keep Walking to Infinite", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Botas\\botas1.png")).getImage(), 2, 2));
-        itens.add(new Item(4, "Botas de Couro", "Retiradas do Gato de/Botas", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Botas\\botas2.png")).getImage(), 2, 2));
-        itens.add(new Item(4, "Botas de Cowboy", "Fique no estilo/faroeste", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Botas\\botas4.png")).getImage(), 2, 2));
+        itens.add(new Item(4, "Sapatos do Infinito", "Keep Walking to Infinite", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Botas\\botas1.png")).getImage(), 2, 2));
+        itens.add(new Item(4, "Botas de Couro", "Retiradas do Gato de/Botas", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Botas\\botas2.png")).getImage(), 2, 2));
+        itens.add(new Item(4, "Botas de Cowboy", "Fique no estilo/faroeste", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Botas\\botas4.png")).getImage(), 2, 2));
 
-        itens.add(new Item(5, "Calça de Pano", "Calça feita de linha", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Calça\\calça1.png")).getImage(), 2, 2));
-        itens.add(new Item(5, "Calça de Alumínio", "Calça feita de/Alumínio", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Calça\\calça2.png")).getImage(), 2, 2));
-        itens.add(new Item(5, "Calça de Moleton", "Calça feita para/esquentar", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Calça\\calça4.png")).getImage(), 2, 2));
+        itens.add(new Item(5, "Calça de Pano", "Calça feita de linha", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Calça\\calça1.png")).getImage(), 2, 2));
+        itens.add(new Item(5, "Calça de Alumínio", "Calça feita de/Alumínio", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Calça\\calça2.png")).getImage(), 2, 2));
+        itens.add(new Item(5, "Calça de Moleton", "Calça feita para/esquentar", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Calça\\calça4.png")).getImage(), 2, 2));
 
-        itens.add(new Item(6, "Espada de Lâmina Invertida", "Uma vez utilizada/por Hitokiri Batousai", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Espada\\espada1.png")).getImage(), 2, 2));
-        itens.add(new Item(6, "Espada de Artur", "Escalibur : A espada/que tudo corta", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Espada\\espada2.png")).getImage(), 2, 2));
-        itens.add(new Item(6, "Espada Tessaiga", "Toma o poder do último/ oponente vencido", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Espada\\espada4.png")).getImage(), 2, 2));
+        itens.add(new Item(6, "Espada de Lâmina Invertida", "Uma vez utilizada/por Hitokiri Batousai", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Espada\\espada1.png")).getImage(), 2, 2));
+        itens.add(new Item(6, "Espada de Artur", "Escalibur : A espada/que tudo corta", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Espada\\espada2.png")).getImage(), 2, 2));
+        itens.add(new Item(6, "Espada Tessaiga", "Toma o poder do último/ oponente vencido", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Espada\\espada4.png")).getImage(), 2, 2));
 
-        itens.add(new Item(7, "Cota de Aço", "Impenetrável", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Cota\\cota1.png")).getImage(), 2, 2));
-        itens.add(new Item(7, "Cota de Bronze", "Com meia lua + ->/, solta meteoros de pégasus", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Cota\\cota2.png")).getImage(), 2, 2));
-        itens.add(new Item(7, "Cota de Prata", "Cota feita com a/prata e o poder/das espadas perdidas", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Cota\\cota4.png")).getImage(), 2, 2));
+        itens.add(new Item(7, "Cota de Aço", "Impenetrável", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Cota\\cota1.png")).getImage(), 2, 2));
+        itens.add(new Item(7, "Cota de Bronze", "Com meia lua + ->/, solta meteoros de pégasus", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Cota\\cota2.png")).getImage(), 2, 2));
+        itens.add(new Item(7, "Cota de Prata", "Cota feita com a/prata e o poder/das espadas perdidas", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Cota\\cota4.png")).getImage(), 2, 2));
 
-        itens.add(new Item(8, "Escudo de Madeira", "Escudo feito de/árvores centenárias", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Escudo\\escudo1.png")).getImage(), 2, 2));
-        itens.add(new Item(8, "Escudo de Aço", "Escudo feito de/panelas velhas", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Escudo\\escudo2.png")).getImage(), 2, 2));
-        itens.add(new Item(8, "Escudo de Madeira", "Fraco contra Fogo", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Escudo\\escudo4.png")).getImage(), 2, 2));
+        itens.add(new Item(8, "Escudo de Madeira", "Escudo feito de/árvores centenárias", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Escudo\\escudo1.png")).getImage(), 2, 2));
+        itens.add(new Item(8, "Escudo de Aço", "Escudo feito de/panelas velhas", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Escudo\\escudo2.png")).getImage(), 2, 2));
+        itens.add(new Item(8, "Escudo de Madeira", "Fraco contra Fogo", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Escudo\\escudo4.png")).getImage(), 2, 2));
 
-        itens.add(new Item(9, "Máscara do Infinito", "Aquele que a possuir/terá a cara tampada", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Mascara\\mascara1.png")).getImage(), 2, 2));
-        itens.add(new Item(9, "Máscara Fantasma", "Aquele que a possuir/terá um bigode trasparente", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Mascara\\mascara2.png")).getImage(), 1, 2));
-        itens.add(new Item(9, "Máscara Nariz de Palhaço", "Aquele que a possuir/terá um nariz de palhaço", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Mascara\\mascara4.png")).getImage(), 1, 3));
+        itens.add(new Item(9, "Máscara do Infinito", "Aquele que a possuir/terá a cara tampada", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Mascara\\mascara1.png")).getImage(), 2, 2));
+        itens.add(new Item(9, "Máscara Fantasma", "Aquele que a possuir/terá um bigode trasparente", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Mascara\\mascara2.png")).getImage(), 1, 2));
+        itens.add(new Item(9, "Máscara Nariz de Palhaço", "Aquele que a possuir/terá um nariz de palhaço", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Mascara\\mascara4.png")).getImage(), 1, 3));
 
         return itens;
     }
@@ -182,25 +182,25 @@ public class Inventario {
     public ArrayList<Item> criarItens2() {
         ArrayList<Item> itens = new ArrayList<>();
 
-        itens.add(new Item(0, "Elmo do Infinito", "Aumentará a concentra-/ção do guerreiro", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Elmo\\elmo3.png")).getImage(), 2, 2));
+        itens.add(new Item(0, "Elmo do Infinito", "Aumentará a concentra-/ção do guerreiro", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Elmo\\elmo3.png")).getImage(), 2, 2));
 
-        itens.add(new Item(1, "Brincos da Guerra", "Dá poderes do Deus/da Guerra", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Brincos\\brincos4.png")).getImage(), 2, 2));
+        itens.add(new Item(1, "Brincos da Guerra", "Dá poderes do Deus/da Guerra", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Brincos\\brincos4.png")).getImage(), 2, 2));
 
-        itens.add(new Item(2, "Luvas de Metal", "Luvas que protegem/contra possíveis/disparos de flechas", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Luvas\\luvas3.png")).getImage(), 2, 2));
+        itens.add(new Item(2, "Luvas de Metal", "Luvas que protegem/contra possíveis/disparos de flechas", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Luvas\\luvas3.png")).getImage(), 2, 2));
 
-        itens.add(new Item(3, "Capa de Voar", "Use ela, então começará/a levitar", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Capa\\capa3.png")).getImage(), 2, 2));
+        itens.add(new Item(3, "Capa de Voar", "Use ela, então começará/a levitar", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Capa\\capa3.png")).getImage(), 2, 2));
 
-        itens.add(new Item(4, "Botas de Couto", "Retiradas do Gato de/Botas", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Botas\\botas3.png")).getImage(), 2, 2));
+        itens.add(new Item(4, "Botas de Couto", "Retiradas do Gato de/Botas", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Botas\\botas3.png")).getImage(), 2, 2));
 
-        itens.add(new Item(5, "Calça de Alumínio", "Calça feita de Alumínio", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Calça\\calça3.png")).getImage(), 2, 2));
+        itens.add(new Item(5, "Calça de Alumínio", "Calça feita de Alumínio", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Calça\\calça3.png")).getImage(), 2, 2));
 
-        itens.add(new Item(6, "Espada de Artur", "Escalibur : A espada que/tudo corta", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Espada\\espada3.png")).getImage(), 2, 2));
+        itens.add(new Item(6, "Espada de Artur", "Escalibur : A espada que/tudo corta", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Espada\\espada3.png")).getImage(), 2, 2));
 
-        itens.add(new Item(7, "Cota de Aço", "Impenetrável", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Cota\\cota3.png")).getImage(), 2, 2));
+        itens.add(new Item(7, "Cota de Aço", "Impenetrável", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Cota\\cota3.png")).getImage(), 2, 2));
 
-        itens.add(new Item(8, "Escudo de Aço", "Escudo feito de/panelas velhas", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Escudo\\escudo3.png")).getImage(), 2, 2));
+        itens.add(new Item(8, "Escudo de Aço", "Escudo feito de/panelas velhas", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Escudo\\escudo3.png")).getImage(), 2, 2));
 
-        itens.add(new Item(9, "Máscara Fantasma", "Aquele que a possuir/terá um bigode trasparente", new ImageIcon(this.getClass().getResource("Sprites\\Inventario\\Mascara\\mascara3.png")).getImage(), 2, 2));
+        itens.add(new Item(9, "Máscara Fantasma", "Aquele que a possuir/terá um bigode trasparente", new ImageIcon(this.getClass().getResource("..\\..\\assets\\sprites\\Inventario\\Mascara\\mascara3.png")).getImage(), 2, 2));
 
         return itens;
     }

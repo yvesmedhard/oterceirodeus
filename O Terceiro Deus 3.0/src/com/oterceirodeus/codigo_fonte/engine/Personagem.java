@@ -53,7 +53,7 @@ public class Personagem {
         this.c = c;
         this.movimentos = new Movimentos(movimentos, this);
         this.image = this.movimentos.getMovimentos().get(0).getImages().get(0);
-//        this.inventario = new Inventario(0, 0, 3);
+        this.inventario = new Inventario(0, 0, 3);
     }
 
     public void update(long gametime) {

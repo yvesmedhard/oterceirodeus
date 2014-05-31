@@ -48,9 +48,9 @@ public class MetodosdeEntrada implements KeyListener, MouseListener, MouseMotion
     public void keyPressed(KeyEvent e) {
         if (mdm.isAtivado()) {
             mapadoMundoKeyInComandsPressed(e);
-        } /*else if (p.getInventario().isInInventario()) {
+        }   else if (p.getInventario().isInInventario()) {
             inventarioKeyInComandsPressed(e);
-        }*/ else {
+        }   else {
             personagemKeyInComandsPressed(e);
         }
     }

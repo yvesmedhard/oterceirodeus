@@ -45,10 +45,10 @@ public class MapaMundo {
             Rectangle local = new Rectangle(lnm.getPosicao(), lnm.getSize());
             if (local.contains(me.getLocationOnScreen())) {
                 activate(lnm);
-                player.setOtherMusic("MouseClick1.mp3").play();
+                //player.setOtherMusic("MouseClick1.mp3").play();
                 return;
             }
-            player.setOtherMusic("Error.mp3").play();
+            //player.setOtherMusic("Error.mp3").play();
         }
     }
 
@@ -60,13 +60,13 @@ public class MapaMundo {
                 setAtivado(true);
                 setInreino(true);
                 c.setLoading(false);
-                player.setOtherMusic("SecretFound.mp3").play();
+                //player.setOtherMusic("SecretFound.mp3").play();
             } else {
                 c.setLoading(true);
                 c.novoCenario(lnm.getProperties().getProperty("MapName"));
                 setAtivado(false);
                 c.setLoading(false);
-                player.setOtherMusic("AutoCastButtonClick1.mp3").play();
+                //player.setOtherMusic("AutoCastButtonClick1.mp3").play();
             }
         }
     }
